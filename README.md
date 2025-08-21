@@ -34,7 +34,7 @@ This project was built and containerized using Docker to ensure easy deployment 
 ├── *.php, *.css          # Core app files
 </pre>
 <h3>⚙️ How to Run the Project (Using Docker)</h3>
-<prep>
+<pre>
 1. <b>Clone the repository</b>
    ```bash
    git clone https://github.com/yassinechk33/Task-Management.git
@@ -49,7 +49,7 @@ This project was built and containerized using Docker to ensure easy deployment 
 4. <b>Import the database</b>
     Open phpMyAdmin
     Import client_portal.sql
-</prep>
+</pre>
 <h3>✅ Requirements</h3>
     Docker
     Docker Compose
