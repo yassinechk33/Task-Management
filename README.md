@@ -24,6 +24,7 @@ This project was built and containerized using Docker to ensure easy deployment 
 - phpMyAdmin
   
 <h3> 📁 Project Structure </h3>
+```
 ├── admin/                # Admin-related PHP files
 ├── includes/             # DB connection, auth, etc.
 ├── uploads/              # Uploaded project files
@@ -31,7 +32,7 @@ This project was built and containerized using Docker to ensure easy deployment 
 ├── docker-compose.yml    # Sets up app, MySQL, and phpMyAdmin
 ├── client_portal.sql     # DB dump
 ├── *.php, *.css          # Core app files
-
+```
 <h3>⚙️ How to Run the Project (Using Docker)</h3>
 
 1. <b>Clone the repository</b>
