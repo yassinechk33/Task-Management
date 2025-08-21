@@ -1,0 +1,135 @@
+body{
+  font-family: poppins, sans-serif;
+  margin: 0;
+}
+.layout{
+  height: 100vh;
+  display: flex;
+}
+.sidebar{
+  width: 250px;
+  background-color: #0f1216; /* dark sidebar */
+  padding: 20px;
+  color: white;
+  border-right: 1px solid #5e626a;
+
+}
+.main-content {
+  flex: 1; /* khod espace liba9a*/
+  background-color: #161b22;
+}
+.sidebar a{
+  display: block;
+  margin-bottom: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 15px;
+  font-weight: bolder;
+  opacity: 2.5;
+}
+.navtop{
+  color: #ff0ea1;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.sidebar a:hover{
+  border: 1px solid #5e626a;
+  color: white;
+  border-radius: 10px;
+  background-color: #30333c;
+
+}
+.container{
+  border: 1px solid #5e626a;
+  padding: 45px;
+  margin: 60px 50px auto 50px;
+  border-radius: 25px;
+  background-color: #30333c;
+}
+.container h2{
+  color: #ff0ea1;
+  margin-bottom: 20px;
+}
+.container form{
+  display: flex;
+  font-family: poppins, sans-serif;
+  color: white;
+  font-weight: bold;
+
+} 
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+    .Projects-table {
+      width: 100%;
+      margin-top: 30px;
+      border-collapse: collapse;
+      background-color: #1d2127;
+      color: white;
+    }
+
+    .Projects-table th,
+    .Projects-table td {
+      padding: 14px;
+      border-bottom: 1px solid #5e626a;
+    }
+
+    .Projects-table th {
+      background-color: #2c2f36;
+      text-align: left;
+    }
+
+    .Projects-table td .status {
+      color: #00ff62;
+      font-weight: bold;
+    }
+
+    .action-btns {
+      cursor: pointer;
+      font-size: 12px;
+      display: flex;
+      gap: 5px;
+    }
+
+    .action-btns span {
+      padding: 4px 10px;
+      border-radius: 6px;
+      background-color: #2c2f36;
+      transition: 0.2s;
+    }
+
+    .action-btns span:hover {
+      background-color: #ff0ea1;
+      color: white;
+    }
+
+    .status.Pending {
+    color: #00ff62;
+    font-weight: bold;
+    }
+
+    .status.in Progress {
+    color: yellow;
+    font-weight: bold;
+    }
+
+    .status.Completed {
+    color: #ff0ea1;
+    font-weight: bold;
+    }
+
+.edit-btn {
+    all: unset; /* 🔥 resets all browser styles */
+    cursor: pointer;
+    padding: 4px 10px;
+    background-color: #2c2f36;
+    border-radius: 6px;
+    transition: 0.2s;
+    display: inline-block;
+}
+
+.edit-btn:hover {
+    background-color: #ff0ea1;
+    color: white;
+}
