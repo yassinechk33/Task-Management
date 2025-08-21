@@ -22,15 +22,15 @@ This project was built and containerized using Docker to ensure easy deployment 
 - XAMPP (for local development) *(just at the beginning the trasnformed fully to docker)
 - Docker & Docker Compose
 - phpMyAdmin
-- 
+  
 <h3> 📁 Project Structure </h3>
-├── admin/ # Admin-related PHP files
-├── includes/ # DB connection, auth, etc.
-├── uploads/ # Uploaded project files
-├── Dockerfile # PHP + Apache container
-├── docker-compose.yml # Sets up app, MySQL, and phpMyAdmin
-├── client_portal.sql # DB dump
-├── *.php, *.css # Core app files
+├── admin/                # Admin-related PHP files
+├── includes/             # DB connection, auth, etc.
+├── uploads/              # Uploaded project files
+├── Dockerfile            # PHP + Apache container
+├── docker-compose.yml    # Sets up app, MySQL, and phpMyAdmin
+├── client_portal.sql     # DB dump
+├── *.php, *.css          # Core app files
 
 <h3>⚙️ How to Run the Project (Using Docker)</h3>
 
