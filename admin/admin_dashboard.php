@@ -2,7 +2,10 @@
 session_start();
 require_once '../includes/db.php';
 
-
+if (!isset($_SESSION["user_id"])) {
+    header("Location: ../index.php");
+    exit;
+}
 
 // Total clients
 $clients_result = $conn->query("SELECT COUNT(*) AS total_clients FROM users WHERE role = 'client'");

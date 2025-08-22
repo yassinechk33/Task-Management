@@ -2,7 +2,10 @@
 session_start();
 require_once '../includes/db.php';
 
-
+if (!isset($_SESSION["user_id"])) {
+    header("Location: ../index.php");
+    exit;
+}
 
 // Fetch all clients from DB
 $clients = $conn->query("SELECT id, username, email, status ,created_at FROM users WHERE role = 'client'");
