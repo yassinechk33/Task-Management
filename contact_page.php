@@ -45,6 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <a href="admin/admin_projects.php">Projects</a>
       <a href="admin/admin_add_project.php">Add Project</a>
       <a href="admin/admin_clients.php">Clients</a>
+      <a href="admin/admin_files_upload.php">Upload Files</a>
       <a href="contact_page.php">Contact us</a>
       <a href="#">Settings</a>
     </nav>
