@@ -57,6 +57,7 @@ $Projects = $conn->query("SELECT id, user_id, project_name, status , deadline, f
       <a href="admin_projects.php">Projects</a>
       <a href="admin_add_project.php">Add Project</a>
       <a href="admin_clients.php">Clients</a>
+      <a href="admin_files_upload.php">Upload Files</a>
       <a href="../contact_page.php">Contact us</a>
       <a href="#">Settings</a>
   </nav>
